@@ -12,7 +12,7 @@
     overflow-x: hidden;
   }
 
-  /* Container for Centering Content */
+
   .container {
     max-width: 1100px;
     margin: auto;
@@ -24,7 +24,7 @@
     animation: fadeIn 1.5s ease-out;
   }
 
-  /* Parallax Section with Scrolling Effect */
+
   .parallax {
     position: relative;
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg');
@@ -58,7 +58,7 @@
     text-transform: uppercase;
   }
 
-  /* Header Section */
+
   .header {
     text-align: center;
     padding: 50px 0;
@@ -66,7 +66,7 @@
     z-index: 1;
   }
 
-  /* Header Styling */
+
   .header h1 {
     font-family: "Cormorant Garamond", serif;
     font-size: 4.5em;
@@ -84,7 +84,7 @@
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   }
 
-  /* Card Styling */
+
   .card {
     background-color: #333;
     border-radius: 12px;
@@ -101,7 +101,7 @@
     background-color: #444;
   }
 
-  /* Button Styling */
+ 
   button.read-more {
     background-color: #5a5a5a;
     color: #ffffff;
@@ -118,7 +118,7 @@
     transform: scale(1.08);
   }
 
-  /* Footer Styling */
+ 
   footer {
     background-color: #1a1a1a;
     color: #cccccc;
@@ -127,7 +127,7 @@
     box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.5);
   }
 
-  /* Fade-In Animation */
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -139,7 +139,7 @@
     }
   }
 
-  /* Responsive Styles */
+
   @media (max-width: 768px) {
     .parallax {
       height: 50vh;
